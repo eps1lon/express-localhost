@@ -16,6 +16,6 @@ app.all("*", (request, response) => {
   response.sendStatus(404);
 });
 
-app.listen(7576, () => {
+app.listen(7576, '0.0.0.0', () => {
   console.log("Started APERF server on port 7576");
 });
